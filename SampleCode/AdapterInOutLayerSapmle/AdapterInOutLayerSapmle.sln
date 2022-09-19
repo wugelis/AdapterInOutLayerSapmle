@@ -11,13 +11,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "in", "in", "{58042278-CB41-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "out", "out", "{11B78BCB-7DB2-4B9E-9AE3-D029DDFF7DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application.Account\Application.csproj", "{85AA7C0E-C969-4C19-A175-34EC1051BF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application.Account\Application.csproj", "{85AA7C0E-C969-4C19-A175-34EC1051BF8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain.Account\Domain.csproj", "{B539C088-759D-4D8B-A4BA-E12D1F66B0F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain.Account\Domain.csproj", "{B539C088-759D-4D8B-A4BA-E12D1F66B0F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAccountUI", "WebAccountUI\WebAccountUI.csproj", "{30AD5CF3-996C-4D39-89E8-700E1D31A370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAccountUI", "WebAccountUI\WebAccountUI.csproj", "{30AD5CF3-996C-4D39-89E8-700E1D31A370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{7F95BAD3-9B83-4251-938A-BB8DA421DE8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{7F95BAD3-9B83-4251-938A-BB8DA421DE8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{D5C3F70D-661B-4579-B2C7-1FFB067D9518}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
