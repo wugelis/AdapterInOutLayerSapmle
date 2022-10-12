@@ -26,10 +26,12 @@ namespace WebAccountUI.Controllers
         {
             // DIP 示例
             Account account = new Account();
-            account.SetAccountId("F123456789");
+            account.SetAccountId(accountViewModel.UserID);
 
             // Login 作業
-            // ..略
+
+            // 檢核帳號
+            account.CheckIsAID();
 
             // 更新 Account 資訊
             _loadAccountPort.UpdateAccount(account);

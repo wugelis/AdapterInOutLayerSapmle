@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainTests", "DomainTests\DomainTests.csproj", "{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{965E308E-685F-41AF-B93F-C5C8373105DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,10 @@ Global
 		{7F95BAD3-9B83-4251-938A-BB8DA421DE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F95BAD3-9B83-4251-938A-BB8DA421DE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F95BAD3-9B83-4251-938A-BB8DA421DE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,7 @@ Global
 		{B539C088-759D-4D8B-A4BA-E12D1F66B0F4} = {2B27BC91-EE38-4D45-89E5-14DDE2F1C78D}
 		{30AD5CF3-996C-4D39-89E8-700E1D31A370} = {58042278-CB41-4D96-8864-54B761410171}
 		{7F95BAD3-9B83-4251-938A-BB8DA421DE8B} = {11B78BCB-7DB2-4B9E-9AE3-D029DDFF7DC2}
+		{E05E2F84-DD9F-4B76-82FD-83C206BC9A7C} = {965E308E-685F-41AF-B93F-C5C8373105DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6215F035-747C-45D5-B038-7D6688344164}
