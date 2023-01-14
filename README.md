@@ -294,7 +294,9 @@ Logo 圖片、六角架構
 比如說，在六角架構中 Port 代表存放『對（外層）的依賴反轉的介面』，而所謂的 Port 又可分 In Port 和 Out Port，所謂的 In/Out 是從 Application Service 的位置來看，如果這個介面是由外層如 Web UI 或 controller 由外往內來呼叫內層，那它就是一個 In port，如果是由 Application Service 的的物件或內層 Entity 來呼叫外層，例如像是外部資料層的 Repository，那麼他就是一個 由內而外的 Out Port 如果它是讓 application layer的物件呼叫外部服務的介面，例如用來存取資料庫的repository，這就是一個out port（由內往外）
 以這個 C# 樣板來說，我們可以將 In/Out 放置在由 Application 這個 Package 區隔開的物件中，而在 C# 中我們可以將這裡以 Assembly 區隔、而 Web 起始的 Package 因為由 adapter 起始，所以可以看做是 『由外而內 In』所以 Web 在外圈，可以獨自建一個 ASP.NET Core 6 的網站，且 adapter 下的 Out 因為是由 application service 『由內而外』的向外存取 Database 所以 Persistence 為外圈的 Infrastructure 的 資料層 Repository，所以完成 C# 程式碼如下圖。
 
+
 圖（六）、以 .NET 6 重建書中該六角架構範例
+
 ![以 .NET 6 重建書中該六角架構範例](https://i.imgur.com/t3bEqTP.jpg)
 
 這裡我使用 .NET Core/6 的內建 DI 就可以完成 DIP 反向依賴【In/Out Port】，這段程式碼會撰寫在 WebAccountUI 的 Program.cs 裡，並使用在 C# 9.0 新增加的 Top-Level Statement 的語言特性。
